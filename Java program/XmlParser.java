@@ -56,21 +56,21 @@ public class XmlParser {
         return toreturn;
     }
 
-    public String[] runParser() {
-        ArrayList<String> stringarraylist = new ArrayList<>();
+    public String runParser() {
+        String s = "";
         try {
             File inputFile = new File("output.xml");
             DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
             DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
             Document doc = dBuilder.parse(inputFile);
             doc.getDocumentElement().normalize();
-            System.out.println("Root element :" + doc.getDocumentElement().getNodeName());
+            //System.out.println("Root element :" + doc.getDocumentElement().getNodeName());
             NodeList nList = doc.getElementsByTagName("MEASUREMENT");
-            System.out.println("----------------------------");
+            //System.out.println("----------------------------");
 
             for (int temp = 0; temp < nList.getLength(); temp++) {
                 Node nNode = nList.item(temp);
-                System.out.println("\nCurrent Element :" + nNode.getNodeName());
+                //System.out.println("\nCurrent Element :" + nNode.getNodeName());
 
                 if (nNode.getNodeType() == Node.ELEMENT_NODE) {
                     Element eElement = (Element) nNode;
@@ -105,31 +105,14 @@ public class XmlParser {
                     CLDC = stripxmltags(CLDC);
                     WNDDIR = stripxmltags(WNDDIR);
 
-                    stringarraylist.add(STN);
-                    stringarraylist.add(DATE);
-                    stringarraylist.add(TIME);
-                    stringarraylist.add(TEMP);
-                    stringarraylist.add(DEWP);
-                    stringarraylist.add(STP);
-                    stringarraylist.add(SLP);
-                    stringarraylist.add(VISIB);
-                    stringarraylist.add(WDSP);
-                    stringarraylist.add(PRCP);
-                    stringarraylist.add(SNDP);
-                    stringarraylist.add(FRSHTT);
-                    stringarraylist.add(CLDC);
-                    stringarraylist.add(WNDDIR);
+                    s+= "STN: " + STN + "\nDATE: " + DATE + "\nTIME: " + TIME + "\nTEMP:" + TEMP + "\nDEWP: " + DEWP + "\nSTP: " + STP + "\nSLP: " + SLP + "\nVISIB: " + VISIB + "\nWDSP: " + WDSP + "\nPRCP:" + PRCP + "\nSNDP: " + SNDP + "\nFRSHTT: " + FRSHTT + "\nCLDC:" + CLDC + "\nWNDDIR: " + WNDDIR + "\n\n";
+
                 }
             }
 
         } catch (Exception e) {
             e.printStackTrace();
         }
-        
-        String[] stringarray = new String[stringarraylist.size()];
-        for (int i = 0; i < stringarraylist.size(); i++) 
-            stringarray[i] = stringarraylist.get(i);
-        return stringarray;
+        return s;
     }
-
 }

@@ -1,5 +1,9 @@
 import java.io.*;  
-import java.net.*;  
+import java.net.*;
+import java.util.concurrent.Executors;
+import java.util.concurrent.ScheduledExecutorService;
+import java.util.concurrent.TimeUnit;  
+
 public class Client {
     
     XmlParser xmlParser;
@@ -12,27 +16,23 @@ public class Client {
     private void runProgram() throws IOException
     {
         xmlParser = new XmlParser();
-        // TODO: hier een timer ofzo van maken, voor nu is het een input ding
-        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        String s = "";
-        while(s != "exit")
-        {
-            s = reader.readLine();
-            if(s.equals("send"))
-            {
+        
+        final ScheduledExecutorService ses = Executors.newSingleThreadScheduledExecutor();
+        ses.scheduleWithFixedDelay(new Runnable() {
+            @Override
+            public void run() {
                 System.out.println("sending...");
-                String[] tosend = xmlParser.runParser();
-                for (String string : tosend) {
-                    sendToServer(string);
-                }
+                String send = xmlParser.runParser();
+                sendToServer(send);
             }
-        }
+        }, 0, 1, TimeUnit.SECONDS); // timer for 1 second
     }
-    
+
     private void sendToServer(String tosend)
     {
         try
-        {      
+        {
+        // CHANGE ON VM
         Socket s=new Socket("localhost",6666);  
         DataOutputStream dout=new DataOutputStream(s.getOutputStream());
         String st = tosend;
