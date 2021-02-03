@@ -1,0 +1,3 @@
+<?php
+
+//massive script
