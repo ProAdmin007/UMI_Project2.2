@@ -1,0 +1,24 @@
+
+                    Station: 379850 in AZERBAIJAN
+
+                    Date: 2021-02-02
+                    Time: 19:59:17
+                    Temperature: 0.5 degrees C
+                    Dew Point: -1.4 degrees C
+                    Air Pressure (Station Level): 1019.3 mbar
+                    Air Pressure (Sea Level): 1018.3 mbar
+                    Visibility: 0.9 Km
+                    Windspeed: 12.7 Km/H
+                    Percipitation: 0.37 cm
+                    Snowpoint: 0.2 cm
+                    Cloud Cover: 52.5 cm
+                    Wind Direction: 245
+
+                    
+                    Has the temperature dropped below 0 degrees C: False
+                    Has there been rainfall:  True
+                    Has there been snowfall:  True
+                    Has there been hail:  False
+                    Have there been any thunderstorms:  False
+                    Have there been any tornadoes:  False
+                    
