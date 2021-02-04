@@ -1,0 +1,384 @@
+Aberdeen*37
+Abilene*92
+Akron*25
+Albany*54
+Albuquerque*30
+Alexandria*55
+Allentown*47
+Amarillo*85
+Anaheim*11
+Anchorage*24
+Ann Arbor*46
+Antioch*60
+Apple Valley*75
+Appleton*44
+Arlington*81
+Arvada*22
+Asheville*92
+Athens*51
+Atlanta*72
+Atlantic City*35
+Augusta*49
+Aurora*60
+Austin*83
+Bakersfield*47
+Baltimore*61
+Barnstable*94
+Baton Rouge*25
+Beaumont*70
+Bel Air*14
+Bellevue*60
+Berkeley*32
+Bethlehem*90
+Billings*23
+Birmingham*55
+Bloomington*43
+Boise*75
+Boise City*88
+Bonita Springs*23
+Boston*21
+Boulder*70
+Bradenton*42
+Bremerton*98
+Bridgeport*15
+Brighton*65
+Brownsville*28
+Bryan*77
+Buffalo*20
+Burbank*63
+Burlington*47
+Cambridge*15
+Canton*49
+Cape Coral*45
+Carrollton*11
+Cary*16
+Cathedral City*27
+Cedar Rapids*49
+Champaign*57
+Chandler*44
+Charleston*34
+Charlotte*68
+Chattanooga*42
+Chesapeake*58
+Chicago*81
+Chula Vista*65
+Cincinnati*88
+Clarke County*72
+Clarksville*78
+Clearwater*100
+Cleveland*69
+College Station*13
+Colorado Springs*34
+Columbia*75
+Columbus*23
+Concord*76
+Coral Springs*96
+Corona*70
+Corpus Christi*26
+Costa Mesa*100
+Dallas*50
+Daly City*34
+Danbury*61
+Davenport*12
+Davidson County*65
+Dayton*58
+Daytona Beach*61
+Deltona*68
+Denton*58
+Denver*52
+Des Moines*94
+Detroit*61
+Downey*91
+Duluth*15
+Durham*72
+El Monte*70
+El Paso*100
+Elizabeth*89
+Elk Grove*33
+Elkhart*82
+Erie*89
+Escondido*85
+Eugene*46
+Evansville*18
+Fairfield*30
+Fargo*69
+Fayetteville*79
+Fitchburg*11
+Flint*32
+Fontana*75
+Fort Collins*70
+Fort Lauderdale*37
+Fort Smith*89
+Fort Walton Beach*38
+Fort Wayne*38
+Fort Worth*58
+Frederick*32
+Fremont*98
+Fresno*100
+Fullerton*13
+Gainesville*29
+Garden Grove*58
+Garland*82
+Gastonia*76
+Gilbert*31
+Glendale*88
+Grand Prairie*92
+Grand Rapids*32
+Grayslake*100
+Green Bay*72
+GreenBay*53
+Greensboro*97
+Greenville*16
+Gulfport-Biloxi*36
+Hagerstown*25
+Hampton*41
+Harlingen*75
+Harrisburg*61
+Hartford*97
+Havre de Grace*33
+Hayward*78
+Hemet*72
+Henderson*83
+Hesperia*48
+Hialeah*100
+Hickory*77
+High Point*72
+Hollywood*65
+Honolulu*28
+Houma*96
+Houston*12
+Howell*80
+Huntington*51
+Huntington Beach*51
+Huntsville*94
+Independence*56
+Indianapolis*37
+Inglewood*52
+Irvine*94
+Irving*62
+Jackson*49
+Jacksonville*47
+Jefferson*61
+Jersey City*31
+Johnson City*48
+Joliet*19
+Kailua*57
+Kalamazoo*18
+Kaneohe*96
+Kansas City*60
+Kennewick*46
+Kenosha*21
+Killeen*15
+Kissimmee*39
+Knoxville*74
+Lacey*34
+Lafayette*58
+Lake Charles*83
+Lakeland*65
+Lakewood*99
+Lancaster*56
+Lansing*99
+Laredo*12
+Las Cruces*45
+Las Vegas*27
+Layton*67
+Leominster*92
+Lewisville*84
+Lexington*56
+Lincoln*63
+Little Rock*47
+Long Beach*15
+Lorain*54
+Los Angeles*38
+Louisville*67
+Lowell*63
+Lubbock*62
+Macon*94
+Madison*87
+Manchester*82
+Marina*90
+Marysville*50
+McAllen*25
+McHenry*14
+Medford*67
+Melbourne*18
+Memphis*94
+Merced*89
+Mesa*67
+Mesquite*70
+Miami*74
+Milwaukee*58
+Minneapolis*20
+Miramar*96
+Mission Viejo*64
+Mobile*75
+Modesto*12
+Monroe*79
+Monterey*26
+Montgomery*11
+Moreno Valley*15
+Murfreesboro*99
+Murrieta*11
+Muskegon*92
+Myrtle Beach*89
+Naperville*17
+Naples*58
+Nashua*51
+Nashville*60
+New Bedford*11
+New Haven*64
+New London*65
+New Orleans*40
+New York*29
+New York City*24
+Newark*14
+Newburgh*70
+Newport News*50
+Norfolk*71
+Normal*16
+Norman*79
+North Charleston*21
+North Las Vegas*74
+North Port*16
+Norwalk*58
+Norwich*72
+Oakland*51
+Ocala*54
+Oceanside*33
+Odessa*88
+Ogden*56
+Oklahoma City*37
+Olathe*11
+Olympia*89
+Omaha*80
+Ontario*33
+Orange*17
+Orem*32
+Orlando*27
+Overland Park*43
+Oxnard*88
+Palm Bay*10
+Palm Springs*72
+Palmdale*34
+Panama City*74
+Pasadena*74
+Paterson*83
+Pembroke Pines*21
+Pensacola*98
+Peoria*28
+Philadelphia*75
+Phoenix*45
+Pittsburgh*69
+Plano*65
+Pomona*92
+Pompano Beach*69
+Port Arthur*41
+Port Orange*42
+Port Saint Lucie*18
+Port St. Lucie*79
+Portland*42
+Portsmouth*96
+Poughkeepsie*64
+Providence*47
+Provo*27
+Pueblo*46
+Punta Gorda*40
+Racine*54
+Raleigh*42
+Rancho Cucamonga*54
+Reading*60
+Redding*58
+Reno*70
+Richland*85
+Richmond*65
+Richmond County*52
+Riverside*39
+Roanoke*87
+Rochester*96
+Rockford*69
+Roseville*93
+Round Lake Beach*27
+Sacramento*29
+Saginaw*13
+Saint Louis*11
+Saint Paul*53
+Saint Petersburg*53
+Salem*70
+Salinas*85
+Salt Lake City*44
+San Antonio*74
+San Bernardino*62
+San Buenaventura*43
+San Diego*51
+San Francisco*13
+San Jose*44
+Santa Ana*96
+Santa Barbara*97
+Santa Clara*63
+Santa Clarita*44
+Santa Cruz*70
+Santa Maria*25
+Santa Rosa*30
+Sarasota*54
+Savannah*55
+Scottsdale*42
+Scranton*41
+Seaside*51
+Seattle*97
+Sebastian*67
+Shreveport*23
+Simi Valley*94
+Sioux City*30
+Sioux Falls*30
+South Bend*79
+South Lyon*56
+Spartanburg*39
+Spokane*27
+Springdale*88
+Springfield*85
+St. Louis*75
+St. Paul*80
+St. Petersburg*89
+Stamford*36
+Sterling Heights*70
+Stockton*17
+Sunnyvale*49
+Syracuse*61
+Tacoma*53
+Tallahassee*75
+Tampa*40
+Temecula*12
+Tempe*28
+Thornton*87
+Thousand Oaks*79
+Toledo*91
+Topeka*27
+Torrance*30
+Trenton*53
+Tucson*45
+Tulsa*44
+Tuscaloosa*72
+Tyler*16
+Utica*66
+Vallejo*53
+Vancouver*29
+Vero Beach*71
+Victorville*79
+Virginia Beach*76
+Visalia*36
+Waco*81
+Warren*19
+Washington*65
+Waterbury*83
+Waterloo*96
+West Covina*44
+West Valley City*53
+Westminster*65
+Wichita*47
+Wilmington*60
+Winston*76
+Winter Haven*25
+Worcester*22
+Yakima*93
+Yonkers*61
+York*40

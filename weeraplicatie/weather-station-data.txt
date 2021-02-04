@@ -1,0 +1,24 @@
+
+                    Station: 590870 in CHINA
+
+                    Date: 2021-02-04
+                    Time: 13:57:31
+                    Temperature: 6.0 degrees C
+                    Dew Point: 1.7 degrees C
+                    Air Pressure (Station Level): 1019.9 mbar
+                    Air Pressure (Sea Level): 1021.1 mbar
+                    Visibility: 17.4 Km
+                    Windspeed: 11.4 Km/H
+                    Percipitation: 0.19 cm
+                    Snowpoint: 0.0 cm
+                    Cloud Cover: 51.7 cm
+                    Wind Direction: 116
+
+                    
+                    Has the temperature dropped below 0 degrees C: False
+                    Has there been rainfall:  True
+                    Has there been snowfall:  False
+                    Has there been hail:  False
+                    Have there been any thunderstorms:  False
+                    Have there been any tornadoes:  False
+                    
