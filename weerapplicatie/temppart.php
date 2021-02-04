@@ -5,6 +5,7 @@ function read_file_and_split_in_array($path){
     if($myfile){
         while(($line = fgets($myfile)) !== false){
 
+
             $second = explode("*", $line);
             array_push($array, $second);
             
@@ -14,19 +15,10 @@ function read_file_and_split_in_array($path){
     return $array;
 }
 
-//$path = scandir('./datafromstations/', SCANDIR_SORT_DESCENDING)[0];
-$number = array();
-$size = filesize("./datafromstations/" . scandir('./datafromstations/', SCANDIR_SORT_DESCENDING)[0]);
-for($i = 0; $i <= 19; $i++){
-    if(!$size = filesize("./datafromstations/" . scandir('./datafromstations/', SCANDIR_SORT_DESCENDING)[$i]) < 100000){
-        array_push($number, $i);
-        //echo scandir('./datafromstations/', SCANDIR_SORT_DESCENDING)[$i] . "<br>";
-    }
-}
-$numbergood = $number[0];
-$path = scandir('./datafromstations/', SCANDIR_SORT_DESCENDING)[$numbergood];
-//echo $path;
+$path = scandir('./datafromstations/', SCANDIR_SORT_DESCENDING)[2];
 $array = read_file_and_split_in_array("./datafromstations/" . $path);
+
+
 
 $file = fopen("./data/real-temp.txt", "w");
 foreach ($array as $ths){

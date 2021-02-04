@@ -13,7 +13,7 @@ if($file){
     fclose($file);
 }
 
-$path = scandir('./datafromstations/', SCANDIR_SORT_DESCENDING)[0];
+$path = scandir('./datafromstations/', SCANDIR_SORT_DESCENDING)[2];
 //echo $path;
 $file = fopen("./datafromstations/" . $path, "r") or die("Error");
 $array = array();

@@ -43,7 +43,7 @@ session_start();
                     <div class="login-box-inside">
                         <h2>Sign in</h2>
                         <p>Sign in to this weather application with your <a href="index.php?msg=explanation">provided*</a> username and password.</p>
-                        <form action="./includes/login.inc.php" method="POST">
+                        <form action="./includes/login.php" method="POST">
                             <input type="text" name="usernamex" placeholder="Username" required value=""><br>
                             <input type="password" name="passwordx" placeholder="Password" required value=""><br>
                             <input type="submit" name="submit" value="Sign in"><br>

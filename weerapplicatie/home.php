@@ -1,4 +1,9 @@
 <?php
+
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
 session_start();
 if(!isset($_SESSION['user'])){
     header("Location: index.php");
@@ -72,7 +77,7 @@ require 'functions.php';
                 <div class="overview-raining-part" id="rain">
                     <h3 id="top">CURRENTLY RAINING</h3>
                     <div class="short-line-two"></div>
-                    <p class="expl">A list of all weather stations where it is currently raining, or where it has rained in the last hour. Click on the name of the station to see more information.</p>
+                    <p class="expl">A list of all weather stations where it is currently raining. Click on the name of the station to see more information.</p>
                     <div class="lshift">
                     <?php
                     require 'rain-reader.php';
