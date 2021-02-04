@@ -15,16 +15,16 @@ function read_file_and_split_in_array($path){
 }
 
 //$path = scandir('./datafromstations/', SCANDIR_SORT_DESCENDING)[0];
-$number = 0;
+$number = array();
 $size = filesize("./datafromstations/" . scandir('./datafromstations/', SCANDIR_SORT_DESCENDING)[$number]);
 for($i = 0; $i <= 19; $i++){
     if(!$size = filesize("./datafromstations/" . scandir('./datafromstations/', SCANDIR_SORT_DESCENDING)[$i]) < 100000){
-        $number = $i;
-        break;
+        array_push($number, $i);
         //echo scandir('./datafromstations/', SCANDIR_SORT_DESCENDING)[$i] . "<br>";
     }
 }
-$path = scandir('./datafromstations/', SCANDIR_SORT_DESCENDING)[$number];
+$numbergood = $number[0];
+$path = scandir('./datafromstations/', SCANDIR_SORT_DESCENDING)[$numbergood];
 //echo $path;
 $array = read_file_and_split_in_array("./datafromstations/" . $path);
 
