@@ -16,7 +16,7 @@ function read_file_and_split_in_array($path){
 
 //$path = scandir('./datafromstations/', SCANDIR_SORT_DESCENDING)[0];
 $number = array();
-$size = filesize("./datafromstations/" . scandir('./datafromstations/', SCANDIR_SORT_DESCENDING)[$number]);
+$size = filesize("./datafromstations/" . scandir('./datafromstations/', SCANDIR_SORT_DESCENDING)[0]);
 for($i = 0; $i <= 19; $i++){
     if(!$size = filesize("./datafromstations/" . scandir('./datafromstations/', SCANDIR_SORT_DESCENDING)[$i]) < 100000){
         array_push($number, $i);
